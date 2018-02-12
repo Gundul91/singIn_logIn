@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+    color:white;
+    font-family: 'Quattrocento', serif;
+}
+
+.container{
+    background-color: #573544;
+    width: 300px;
+    padding:15px;
+}
+
+.flex{
+  display: flex;
+}
+
+.singUp{
+  background-color: #F2EBBF;
+  color:black;
+}
+
+.logIn, .submit{
+  background-color: #449991;
+}
+
+.button{
+  border:0;
+  height: 30px;
+  cursor: pointer;
+}
+
+h4{
+  text-align: center;
+  margin: 15px 0;
+}
+
+.logInTexts .singUpTexts{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.singUpTexts{
+  display: none;
+}
+
+input{
+  margin:5px 0;
+  min-width: 0;
+  width: 100%;
+  background-color: inherit;
+  border: 1px solid;
+  font-size: 12px;
+  padding:3px;
+}
+
+p{
+  text-align: right;
+  color:#449991;
+  cursor: pointer;
+}
+
+.firstN{
+  margin: 5px 5px 5px 0;
+}
+
+.lastN{
+  margin: 5px 0 5px 5px;
+}
+
+.submit{
+  font-size: 15px;
+  font-weight: bold;
+  height: 40px;
+}
