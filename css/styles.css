@@ -19,11 +19,11 @@
     padding:15px;
     right:300px;
     bottom:300px;
-    transition:all 0.2s linear 0.2s;
+    transition:all 0.15s linear;
 }
 
 .container div{
-  transition:all 0.2s linear 0.2s;
+  transition:all 0.15s linear;
 }
 
 .flex{
