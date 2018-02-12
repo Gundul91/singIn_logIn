@@ -19,3 +19,16 @@ $(".singUp").click(function (){
   $(".logIn").css("color","black");
   $(".singUp").css("color","white");
 });
+
+$('document').ready(function(){
+  var container=$("div");
+  $(".x").click(function (){
+    if(container.css("right")!="0px"){
+      container.css("right",0);
+      container.css("bottom",0);
+    }else{
+      container.css("right",300);
+      container.css("bottom",300);
+    }
+  });
+});
